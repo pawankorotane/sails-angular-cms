@@ -1,4 +1,3 @@
-sails-angular-cms
-=================
+# angcms
 
-This is very simple CMS built on top of Angularjs and Sailsjs
+a [Sails](http://sailsjs.org) application

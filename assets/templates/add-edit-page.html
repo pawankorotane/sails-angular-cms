@@ -1,0 +1,30 @@
+<h1>{{heading}}</h1>
+<hr/>
+
+<form role="form" id="add-page" ng-submit="savePage()">
+<div class="form-group">
+<label>Page ID</label>
+<input class="form-control" type="text" readonly ng-model="pageContent.id"/>
+</div>
+<div class="form-group">
+<label>Page Title</label>
+
+<input class="form-control" type="text" ng-change="updateURL()" ng-model="pageContent.title"/>
+</div>
+<div class="form-group">
+<label>Page URL Alias</label>
+<input class="form-control"type="text" readonly ng-model="pageContent.url"/>
+</div>
+
+<div class="form-group">
+<label>Menu Index</label>
+<input class="form-control"type="number" ng-model="pageContent.menuIndex"/>
+</div>
+
+<div class="form-group">
+<label>Page Content</label>
+<textarea ui-tinymce rows="15" class="form-control" type="text" ng-model="pageContent.content"></textarea>
+</div>
+<input type="submit" class="btn btn-success" value="Save">
+</div>
+</form>

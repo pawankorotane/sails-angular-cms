@@ -1,0 +1,24 @@
+<a href="#/admin/add-edit-page/0" class="btn btn-success pull-right"> Add New Page</a>
+<h1>Pages List</h1>
+<hr/>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Menu Index</th>
+      <th>Title</th>
+      <th>URL</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+
+  <tr ng-repeat="page in allPages">
+    <td>{{page.menuIndex}}</td>
+    <td>{{page.title}}</td>
+    <td>{{page.url}}</td>
+    <td> <a ng-href="#/admin/add-edit-page/{{page.id}}">Edit</a>
+    </td>
+    <td> <a ng-href="#" ng-click="deletePage(page.id)">Delete</a>
+    </td>
+  </tr>
+</table>
