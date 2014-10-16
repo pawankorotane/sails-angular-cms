@@ -1,8 +1,8 @@
 {
-  "name": "angcms",
+  "name": "Sails Angular CMS",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "This is very simple CMS built on top of Angularjs, Sailsjs and Mongodb.",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.4",
@@ -32,8 +32,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/korotane/angcms.git"
+    "url": "git://github.com/pawankorotane/sails-angular-cms.git"
   },
   "author": "korotane",
-  "license": ""
+  "license": "FREE BDS"
 }
