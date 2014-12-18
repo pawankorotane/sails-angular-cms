@@ -1,5 +1,5 @@
 {
-  "name": "Sails Angular CMS",
+  "name": "sails-angular-cms",
   "private": true,
   "version": "0.0.0",
   "description": "This is very simple CMS built on top of Angularjs, Sailsjs and Mongodb.",
